@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #0A1128;
+    --ligth-gray-color: #EEEEEE;
+    --gap: 3rem;
+}
+
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: white
+}
+
+.white-bg {
+    background: white;
+    color: var(--primary-color)
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 65px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
