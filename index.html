@@ -71,7 +71,7 @@
             <div class="grid">
                 <article>
                     <h3>Cal. de IMC</h3>
-                    <p>Uma calculadora ja pré configurada com a formula do IMC, um exercicio simples mas ótimo para aprender a trabalhar com calculos em uma nova linguagem!</p>
+                    <p>Uma calculadora já pré configurada com a formula do IMC, um exercicio simples mas ótimo para aprender a trabalhar com calculos em uma nova linguagem!</p>
                 </article>
                 <article>
                     <h3>Timer</h3>
@@ -97,30 +97,51 @@
         </div>
     </section>
 
-    <section id="calculo_imc"class="grid-one white-bg section">
+    <section id="calculo_imc"class="grid-one white-bg section body_calculo container_calculo">
         <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">Gallery</h2>
-            <p class="grid-description">Uma breve descrição.</p>
-            <div class="grid">
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />"
+            <h2 class="grid-main-heading">Calculo IMC</h2>
+            <p class="grid-description">Um dos exercicios básicos para aprender sobre calculos em uma nova linguagem</p>
+            <h6>Tabela IMC</h6>
+            <div class="grid-informacao">
+                <!--
+                Menos de que 18,5 -  <b>Abaixo do peso</b><br>
+                Entre 18,5 e 24,9 -  <b>Peso normal</b><br>
+                Entre 25 e 29,9 -  <b>Sobrepeso</b><br>
+                Entre 30 e 34,9 -  <b>Obesidade grau 1</b><br>
+                Entre 35 e 39,9 -  <b>Obesidade grau 2</b><br>
+                Mais do que 40 -  <b>Obesidade grau 3</b>
+                -->
+                <div>
+                    <p>Menos de que 18.5 -</p>
+                    <p>Entre 18.5 e 24.9 -</p>
+                    <p>Entre 25 e 29.9 -</p>
+                    <p>Entre 30 e 34.9 -</p>
+                    <p>Entre 35 e 39.9 -</p>
+                    <p>Mais do que 40 -</p>
                 </div>
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />"
+                <div>
+                    <b>
+                        <p>Abaixo do peso</p>
+                        <p>Peso normal</p>
+                        <p>Sobrepeso</p>
+                        <p>Obesidade grau 1</p>
+                        <p>Obesidade grau 2</p>
+                        <p>Obesidade grau 3</p>
+                    </b>
                 </div>
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />"
-                </div>
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />"
-                </div>
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />"
-                </div>
-                <div class="gallery-img">
-                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />"
-                </div>
-            </div>
+            </div>  
+            <h6 class="calcule_imc">Calcule o seu IMC</h6>
+            <form action="" id="formulario">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso">
+        
+                <label for="altura">Altura</label>
+                <input type="text" id="altura">
+        
+                <button type="submit">Calcular</button>
+        
+                <div id="resultado"></div>
+            </form>
         </div>
     </section>
 
@@ -239,5 +260,7 @@
     </footer>
 
     <a class="back-to-top" href="#">➤</a>
+
+    <script src="./js/calculo_imc.js"></script>
 </body>
 </html>

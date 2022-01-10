@@ -38,3 +38,21 @@ body .full-width {
 .link-repositorio {
     color:red
 }
+
+.grid-informacao {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5px;
+}
+.grid-informacao div p {
+    margin-bottom: 0;
+}
+
+.grid-informacao div p:nth-child(2){
+    margin-bottom: 0;
+}
+
+.grid-informacao div:nth-child(2){
+    text-align: right;
+    
+}

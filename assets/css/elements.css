@@ -84,3 +84,39 @@ table td, table th {
 tfoot td, table th {
     background: var(--ligth-gray-color);
 }
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size:  24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+form button {
+    background:  var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    border-color: var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+}
+
+informacao {
+    margin: 20px;
+}
