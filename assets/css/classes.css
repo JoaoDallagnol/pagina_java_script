@@ -56,3 +56,35 @@ body .full-width {
     text-align: right;
     
 }
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
+
+.botoes {
+   max-height: 80px;
+   max-width: 500px;
+   display: flex;
+}
+
+.contador {
+    margin-left: 5px;
+    width: 100%;
+    background:  var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.contador:hover {
+    border-color: var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+}

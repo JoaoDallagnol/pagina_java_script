@@ -57,11 +57,6 @@ p {
     margin-bottom: 3rem;
 }
 
-.responsive-table{
-    overflow: hidden;
-    overflow-x: auto;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
