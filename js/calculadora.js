@@ -72,7 +72,7 @@ function criaCalculadora() {
             this.realizaConta();
           }
   
-          this.display.focus();
+          //this.display.focus();  QUAL QUER CLIUQE NO SITE VAI FOCAR NO DISPLAY
         });
       },
   
