@@ -127,3 +127,28 @@ body .full-width {
     color: var(--primary-color)
 }
 
+.senha-gerada{
+    font-size:  2em;
+    color: var(--primary-color);
+    margin: 40px 0;  
+}
+
+.gerador-content {
+    max-width: 64rem;
+    /*display: flex; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 80vh;
+}
+.gerador-content h6 {
+    margin-top: 20px;
+}
+
+.titulo-center {
+    text-align: center;
+}
+
+.alocacao-checkbox {
+    margin-left: 10px;    
+}
+

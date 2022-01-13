@@ -201,7 +201,33 @@
         </div>
     </section>
 
-    <section id="geradores">Section disponivel para a funcionadade de Geradores de sehas e CPF</section>
+    <section id="geradores" class="white-bg section container">
+        <div class="main-content gerador-content">
+            <h1 class="titulo-center">Geradores<h1>
+            <h6 class="titulo-center">Gerador de senhas</h6>
+            <div class="senha-gerada"><h6>Selecione as opções</h6></div>
+        
+            <div class="alocacao-checkbox">
+                <label for="quantidade-caracteres">Quantidade de caracteres</label>
+                <input type="number" value="20" min="1" max="50" class="quantidade-caracteres"> <br>
+            
+                <label for="chk-maiusculas">Adicionar maiúsculas</label>
+                <input type="checkbox" class="chk-maiusculas"><br>
+                
+                <label for="chk-minusculas">Adicionar minusculas</label>              
+                <input type="checkbox" class="chk-minusculas" checked><br>
+            
+                <label for="chk-numeros">Adicionar numeros</label>
+                <input type="checkbox" class="chk-numeros" checked><br>
+            
+                <label for="chk-simbolos">Adicionar simbolos</label>
+                <input type="checkbox" class="chk-simbolos"><br>
+            </div>
+        
+            <button class="gerar-senha contador">Gerar senha</button>
+            <div class="cpf-gerado"></div>
+        </div>
+    </section>
 
     <section id="dados" class="main-bg section">
         <div class="main-content intro-content">
@@ -255,5 +281,6 @@
     <script src="./js/calculo_imc.js"></script>
     <script src="./js/timer.js"></script>
     <script src="./js/calculadora.js"></script>
+    <script src="./js/geraSenha.js"></script>
 </body>
 </html>

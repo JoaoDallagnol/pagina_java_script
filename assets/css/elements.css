@@ -116,3 +116,9 @@ form button:hover {
 informacao {
     margin: 20px;
 }
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    align-items: baseline;
+}
