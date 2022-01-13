@@ -1,0 +1,30 @@
+{
+  "name": "pagina_java_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoDallagnol/Pagina-Elemtentos-Java-Script-Basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoDallagnol/Pagina-Elemtentos-Java-Script-Basico/issues"
+  },
+  "homepage": "https://github.com/JoaoDallagnol/Pagina-Elemtentos-Java-Script-Basico#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "core-js": "^2.6.12",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
