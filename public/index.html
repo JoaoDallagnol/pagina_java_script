@@ -132,7 +132,7 @@
                 <label for="altura">Altura</label>
                 <input type="text" id="altura">
         
-                <button type="submit">Calcular</button>
+                <button class="btn-cacular-imc" type="submit">Calcular</button>
         
                 <div id="resultado"></div>
             </form>
@@ -210,7 +210,6 @@
             <div class="senha-gerada">
                 Selecione as opções
             </div>
-        
             <div class="alocacao-checkbox">
                 <label for="quantidade-caracteres">Quantidade de caracteres</label>
                 <input type="number" value="20" min="1" max="50" class="quantidade-caracteres"> <br>
@@ -227,7 +226,6 @@
                 <label for="chk-simbolos">Adicionar simbolos</label>
                 <input type="checkbox" class="chk-simbolos"><br>
             </div>
-        
             <button class="gerar-senha contador">Gerar senha</button>
             <div class="cpf-gerado"></div>
         </div>
@@ -236,37 +234,56 @@
     <section id="dados" class="main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>Contact us</h2>
-                <p>To wrap up January, we are proun to bring you the release of Firefox 85. In this version we are briging you support fot 
-                    the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox</p>
+                <h2>Dados</h2>
+                <p>Uma sessão de simulação de envio de dados, o botão é meramental ilustrativo, o campo do CPF conta com uma verificação de validaão do CPF
+                    de uma olhada no código para saber mais!
+                </p>
+                <ul>
+                    <li>Nenhum campo pode estar vazio</li>
+                    <li>Usuário só poderá conter letras e/ou números</li>
+                    <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+                    <li>Senha precisa ter entre 6 e 12 caracteres</li>
+                </ul>
             </div>
             <div class="intro-img">
                 <img src="../src/assets/img/work.svg" alt="Imagem de inspiração para trabalho">
             </div>
-            <div class="contact-form">
+            <form action="/" method="POST" class="contact-form">
                 <fieldset class="form-grid">
-                    <legend>Contact me</legend>
+                    <legend>Coloque seus Dados</legend>
                     <div class="form-group">
-                        <label for="first-name">First name</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
                     </div>
                     <div class="form-group">
-                        <label for="last-name">Last name</label>
-                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Your email">
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="Seu CPF">
+                    </div>
+                    <div class="form-group">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Sua senha">
                     </div>
                     <div class="form-group full-width">
-                        <label for="message">Message</label>
+                        <label for="message">Mensagem</label>
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
                     <div class="form-group full-width">
-                        <button type='submit'>Send message</button>
+                        <button type='submit'>Mandar mensagem</button>
                     </div>
                 </fieldset>
-            </div>
+            </form>
         </div>  
     </section>
 

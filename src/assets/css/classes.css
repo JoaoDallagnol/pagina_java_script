@@ -152,3 +152,40 @@ body .full-width {
     margin-left: 10px;    
 }
 
+
+.contact-form {
+    display: block;
+    margin-bottom: 10px;
+    background:  var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.contact-form button:hover {
+    border-color: var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+}
+
+
+.btn-cacular-imc {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+    background:  var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-cacular-imc:hover {
+    border-color: var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+}

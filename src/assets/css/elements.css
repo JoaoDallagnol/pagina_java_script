@@ -81,7 +81,7 @@ tfoot td, table th {
     background: var(--ligth-gray-color);
 }
 
-form input, form label, form button{
+form input, form label {
     display: block;
     width: 100%;
     margin-bottom: 10px;
@@ -97,12 +97,13 @@ form input:focus {
     outline: 2px solid var(--primary-color);
 }
 
+/*
 form button {
     background:  var(--primary-color);
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    height: 50px;
+    height: 50px;  
     cursor: pointer;
     margin-top: 30px;
 }
@@ -112,6 +113,7 @@ form button:hover {
     background: white;
     color: var(--primary-color);
 }
+*/
 
 informacao {
     margin: 20px;
