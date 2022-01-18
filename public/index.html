@@ -85,15 +85,15 @@
                 </article>
                 <article>
                     <h3>Geradores</h3>
-                    <p>Um gerador de CPF e senha com opção de escolher sua própria regra, tambem conta com uma validação do CPF</p>
-                </article>
-                <article>
-                    <h3>Validação</h3>
-                    <p>Um validador de CPF utilizando o calculo feito para a analise do documento</p>
+                    <p>Um gerador de senha com varias opções de validações das checkboxs</p>
                 </article>
                 <article>
                     <h3>Dados</h3>
-                    <p>Um local feito para simular um envio de formulario </p>
+                    <p>Um local feito para simular um envio de formulario, onde é feito a validação de todos os campos</p>
+                </article>
+                <article>
+                    <h3>Validação</h3>
+                    <p>Um validador de CPF utilizado no formulario, calculo feito para a analise dos numeros</p>
                 </article>
             </div>
         </div>
@@ -253,27 +253,23 @@
                     <legend>Coloque seus Dados</legend>
                     <div class="form-group">
                         <label for="first-name">Nome</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                        <input type="text" class="nome validar" name="first-name" id="first-name" placeholder="Seu nome">
                     </div>
                     <div class="form-group">
                         <label for="last-name">Sobrenome</label>
-                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Seu email">
+                        <input type="text" class="sobrenome validar" name="last-name" id="last-name" placeholder="Seu sobrenome">
                     </div>
                     <div class="form-group">
                         <label for="cpf">CPF</label>
-                        <input type="text" name="cpf" id="cpf" placeholder="Seu CPF">
+                        <input type="text" class="cpf validar" name="cpf" id="cpf" placeholder="Seu CPF">
                     </div>
                     <div class="form-group">
                         <label for="usuario">Usuário</label>
-                        <input type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                        <input type="text" class="usuario validar" name="usuario" id="usuario" placeholder="Seu usuário">
                     </div>
                     <div class="form-group">
-                        <label for="email">Senha</label>
-                        <input type="password" name="senha" id="senha" placeholder="Sua senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="senha validar" name="senha" id="senha" placeholder="Sua senha">
                     </div>
                     <div class="form-group full-width">
                         <label for="message">Mensagem</label>
@@ -305,6 +301,8 @@
     <script src="../src/modules/formGeraSenha.js"></script>
     <script src="../src/modules/formGeraSenha.js"></script>
     <script src="../src/modules/formGeraSenha.js"></script>
+    <script src="../src/modules/ValidaCPF.js"></script>
+    <script src="../src/modules/valida_formulario.js"></script>
     <script src="../public/assets/js/bundle.js"></script>
 
 </body>
