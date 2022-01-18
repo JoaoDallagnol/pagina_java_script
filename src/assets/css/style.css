@@ -130,7 +130,10 @@
 
 .footer p {
     margin: 0;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
 }
 
 .back-to-top {
