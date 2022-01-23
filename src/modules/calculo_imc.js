@@ -9,12 +9,12 @@ form.addEventListener('submit', function (e){
     const altura = Number(inputAltura.value);
     
     if (!peso) {
-        setResultado('Peso inválido', false);
+        setResultadoIMC('Peso inválido', false);
         return
     }
 
     if (!altura) {
-        setResultado('Altura inválida', false);
+        setResultadoIMC('Altura inválida', false);
         return
     }
 
@@ -23,7 +23,7 @@ form.addEventListener('submit', function (e){
     const nivelImc = condicionaNivel(imc);
     const msg = `Seu IMC é ${imc} (${nivelImc}).`;
 
-    setResultado(msg, true);
+    setResultadoIMC(msg, true);
 
     
 });
@@ -32,9 +32,9 @@ function criaParagrafo () {
     const p = document.createElement('p');
     return p;
 }
-function setResultado (msg, isValid) {
-    const textoResultado = document.querySelector('#resultado')
-    textoResultado.innerHTML = '';
+function setResultadoIMC (msg, isValid) {
+    const textoResultadoIMC = document.querySelector('#resultado-imc')
+    textoResultadoIMC.innerHTML = '';
 
     const p = criaParagrafo(msg);
     if (isValid){ 
@@ -44,7 +44,7 @@ function setResultado (msg, isValid) {
     }
 
     p.innerHTML = msg
-    textoResultado.appendChild(p);
+    textoResultadoIMC.appendChild(p);
 }
 
 function calculaImc (peso, altura) {
